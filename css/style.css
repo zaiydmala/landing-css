@@ -3,7 +3,10 @@
 .container {
     margin: 0 auto;
     font-family: 'roboto';
-    width: 60%;
+    /* width: 75%; */
+    
+    
+    
 
 }
 
@@ -12,8 +15,24 @@
     background-color: #1f2937;
     display: flex;
     justify-content: flex-end;
+    color: white;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0 400px;
 }
 
 .logo {
-    justify-self: flex-start;
+    margin-right: auto;
 }
+
+.links {
+    margin: auto 15px;
+    text-decoration: none;
+}
+
+.links:hover {
+    cursor: pointer;
+}
+
+
+
