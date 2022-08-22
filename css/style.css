@@ -34,5 +34,25 @@
     cursor: pointer;
 }
 
+.main-info{
+    display: flex;
+    margin: 0 auto;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 0 400px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.hero-description {
+    margin-top: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 
 
