@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .container {
     margin: 0 auto;
@@ -39,20 +39,54 @@
     margin: 0 auto;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 0 400px;
+    padding: 50px 400px;
+}
+
+.content {
+    margin-right: 20px;
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-top: 0;                      
 }
 
 .hero-description {
-    margin-top: 0;
+    
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.placeholder {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: auto;
+}
+
+.more-info {
+    margin: 0 auto;
+    padding: 0 400px;
+    
+
+}
+
+.character-profiles {
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.pfp {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+    /* margin: auto 20px; */
+    
+}
+
 
 
 
